@@ -1,0 +1,32 @@
+Package: SCUGPACKAGE
+Title: Calculating exposure over multiple referrals
+Description: Reusable functions for calculating exposure during repeated spans.
+Version: 0.0.1.9000
+Date: 2017-02-21
+Authors@R: c(person("Maleeha", "Shahid", role = c("aut", "cre"), email =
+    "Maleeha-Shahid@ouhsc.edu"))
+Author: Maleeha Shahid [aut, cre]
+Maintainer: Maleeha Shahid <Maleeha-Shahid@ouhsc.edu>
+URL: https://github.com/mshahid/SCUGPACKAGE, http://ouhsc.edu/bbmc/
+BugReports: https://github.com/mshahid/r-SCUGPACKAGE/issues
+Depends:
+    R(>= 3.0.0),
+    stats
+Imports:
+    DBI,
+    dplyr,
+    methods,
+    magrittr,
+    readr,
+    sqldf,
+    tidyr,
+    tibble
+Suggests:
+    devtools,
+    knitr,
+    rmarkdown,
+    testthat (>= 0.9)
+License: MIT + file LICENSE
+LazyData: TRUE
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
